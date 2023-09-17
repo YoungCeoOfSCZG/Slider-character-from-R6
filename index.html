@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Recipes</title>
-    <!-- style  -->
-    <link rel="stylesheet" href="./style.css" />
-    <!-- icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- start of body  -->
-    <main>
-      <section class="container">
-        <!-- title  -->
-        <h2 class="title">Le nostre ricette</h2>
-        <div class="spacer-xxs"></div>
-        <!-- recipe  -->
-        <article class="container paper">
-          <div class="spacer-xxs"></div>
-          <div class="img-container">
-            <img src="" id="recipe-img" alt="" />
-          </div>
-          <h3 id="nome"></h3>
-          <p id="difficulty"></p>
-          <p id="recipe"></p>
 
-          <div class="spacer-xs"></div>
-          <!-- prev next buttons-->
-          <div class="button-container">
-            <button class="button-xs before-btn">
-              <i class="fas fa-chevron-left"></i>
-            </button>
-            <button class="button-xs next-btn">
-              <i class="fas fa-chevron-right"></i>
-            </button>
-          </div>
-          <div class="spacer-xxs"></div>
-          <!-- random button -->
-          <button class="button-xs random-btn">random recipe</button>
-        </article>
-      </section>
-    </main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Rainbow Six</title>
+</head>
 
-    <!-- script  -->
+<body>
+    <div class="body-container">
+        <div class="title">
+            <div class="title-container">
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="img-container">
+                <img src="" id="op-img" alt="" />
+            </div>
+            <h3 id="nome"></h3>
+            <div class="container-p">
+                <div class="gadget">
+                    <img src="" id="weapon" alt="">
+                    <img src="" id="ability" alt=""></img>
+                </div>
+                <p id="description"></p>
+            </div>
+
+        </div>
+
+        <div class="button-container">
+            <button class="btn btn-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <button class="btn btn-random">RANDOM</button>
+
+            <button class="btn btn-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+
+    </div>
+
+    <!-- Includi il tuo file JavaScript index.js dopo il contenuto della pagina -->
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
